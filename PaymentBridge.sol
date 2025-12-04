@@ -9,7 +9,7 @@ interface IERC20 {
     function balanceOf(address account) external view returns (uint256);
 }
 
-contract DavenAIPaymentBridge {
+contract PaymentBridge {
     address public owner;                 
     address public payoutWallet;          
 
